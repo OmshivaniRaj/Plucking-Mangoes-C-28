@@ -52,12 +52,12 @@ function draw() {
 
   background(backgroundImage);
    
-  textSize(35);
+  textSize(25);
   textFont("Cursive");
-  strokeWeight(10);
+  strokeWeight(4);
   stroke("black");
   fill("RED");
-  text("Hit the mangoes with the stone!!",50 ,50);
+  text("!!Hit the mangoes🥭🥭with the stone!!",400 ,110);
   
   //text for presing space 
   textSize(20);
@@ -65,7 +65,7 @@ function draw() {
   strokeWeight(5);
   stroke("blue");
   fill("pink");
-  text("!! Press Space to have the stone again !!",420,90);
+  text("!! Press Space to have the stone ⚽ again !!",420,150);
    Engine.update(engine);
   image(boy,200,340,200,300);
   
